@@ -7,7 +7,7 @@
         {
             "js" : ["init.js"],
             "css": ["styles.css"],
-            "matches" : ["*://zabbix.monitor.redeunifique.com.br/*"]
+            "matches" : ["*://zabbix.monitor.redeunifique.com.br/zabbix.php?action=problem.view*"]
         }
     ]
 }

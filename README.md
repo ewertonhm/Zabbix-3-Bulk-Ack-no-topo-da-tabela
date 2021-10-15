@@ -1,5 +1,5 @@
 ![alt text](screenshot.png)
-# Zabbix-3-Helper
+# Zabbix 3: Helper
 Uma extensão do google chrome para adicionar algumas pequenas melhorias ao zabbix e facilitar/agilizar o meu fluxo de trabalho. 
 
 # Como instalar:

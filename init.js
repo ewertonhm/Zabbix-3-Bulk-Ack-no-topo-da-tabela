@@ -50,8 +50,6 @@ function observe(){
   });
 }
 
-document.querySelector("body > div.article > script:nth-child(8)").remove
-
 observe();
 
 

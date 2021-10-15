@@ -11,7 +11,7 @@ Uma extensão do google chrome para adicionar algumas pequenas melhorias ao zabb
 # Como usar o botão 'copy to clipboard':
 - Selecione os alarmes que deseja copiar através das caixas de seleção
 - Click em copy to clipboard para copiar seu conteúdo no formato tabela (BB Code)
-- No bitrix click na opção BB Code e depois cole o código, click novamente para vizualizar a tabela.
+- No bitrix click na opção BB Code e depois cole o código, click novamente em BB Code para vizualizar a tabela.
 
 ## Ctrl Click
 - Ctrl Click em copy to clipboard copia apenas o texto com uma quebra de linha para cada alarme, para quando não é possível utilizar BB Code (whatsapp por exemplo)

@@ -1,5 +1,7 @@
 # Zabbix-3-Helper
 Zabbix 3 : Helper
+![alt text](screenshot.png)
+
 
 # Como instalar:
 - Baixe o conteúdo do repositório e descompacte em alguma pasta do computador,

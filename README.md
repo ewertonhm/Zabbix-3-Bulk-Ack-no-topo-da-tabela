@@ -12,5 +12,5 @@ Zabbix 3 : Helper
 - Click em copy to clipboard para copiar seu conteúdo no formato tabela (BB Code)
 - No bitrix click na opção BB Code e depois cole o código, click novamente para vizualizar a tabela.
 
-# Ctrl Click
+## Ctrl Click
 - Ctrl Click em copy to clipboard copia apenas o texto com uma quebra de linha para cada alarme, para quando não é possível utilizar BB Code (whatsapp por exemplo)

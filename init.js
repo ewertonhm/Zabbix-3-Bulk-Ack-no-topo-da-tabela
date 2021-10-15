@@ -77,6 +77,22 @@ function getSelected(){
   copyToClipboard(tableString);
 }
 
+function getSelectedNoTable(){
+  lista = document.querySelectorAll("table.list-table > tbody > tr.row-selected");
+  
+  let tr = [];
+
+  lista.forEach(element => {
+    data = element.querySelectorAll("td");
+
+    a = [data[0].textContent,data[4].textContent,data[8].textContent,data[9].textContent];
+    tr.push(a.join('|'));
+  });
+
+  tableString = tr.join("\r\n");
+  copyToClipboard(tableString);
+}
+
 function convertToTable(a){
   table = ['[TABLE]'];
   a.forEach(e => {
@@ -116,9 +132,16 @@ function copyStringToClipboard (str) {
   document.body.removeChild(el);
 }
 
+
 function onClickCopyToClipboard(){
   var btn = document.querySelector("#btn-copy");
-  btn.addEventListener("click", getSelected);
+  btn.addEventListener("click", function (e) {
+    if (e.ctrlKey){
+      getSelectedNoTable();
+    } else {
+      getSelected();
+    }
+  });
 }
 
 
